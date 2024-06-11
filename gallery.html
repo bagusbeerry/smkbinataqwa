@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <style>
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+    
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+    
+    div.gallery img{
+        width: 100%;
+        height: auto;
+    }
+    
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div class="gallery">
+        <a target="_blank" href="smk bt.jpg">
+        <img src="smk bt.jpg"
+        alt="basket"
+        width="600" height="400">
+        </a>
+        <div class="desc">SMK BINA TAQWA</div>
+    </div>
+    
+    <div class="gallery">
+        <a target="_blank" href="paskibra smk bina taqwa.jpg">
+            <img src="paskibra smk bina taqwa.jpg" alt="paskibra" width="600" height="400"></a>
+       <div class="desc">Paskibra Smk Bina Taqwa</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="11 tkj.jpg">
+        <img src="11 tkj.jpg" alt="tkj" width="600" height="400"></a>
+        <div class="desc">Siswa Tkj</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="11 akl.jpg">
+        <img src="11 akl.jpg" alt="akl" width="600" height="400"></a>
+        <div class="desc">Siswa Akl</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="basket.jpg">
+        <img src="basket.jpg" alt="basket" width="600" height="400"></a>
+        <div class="desc">Ekskul Basket</div>
+    </div>
+    <div class="gallery">
+        <a target="_blank" href="classmeet.jpg">
+        <img src="classmeet.jpg" alt="classmeet" width="600" height="400"></a>
+        <div class="desc">Classmeet</div>
+    </div>    
+    <div class="gallery">
+        <a target="_blank" href="jalan jalan smk.webp">
+        <img src="jalan jalan smk.webp" alt="jalan" width="600" height="400"></a>
+        <div class="desc">Study Tour</div>
+    </div>  
+</div>
+    <style>
+        /* CSS untuk mengatur gaya tombol */
+        .back-button {
+            background-color: #4CAF50; /* Warna latar belakang tombol */
+            border: none;             /* Menghilangkan border */
+            color: white;             /* Warna teks tombol */
+            padding: 15px 32px;       /* Padding tombol */
+            text-align: center;       /* Rata tengah teks */
+            text-decoration: none;    /* Menghilangkan garis bawah */
+            display: inline-block;    /* Menampilkan sebagai blok inline */
+            font-size: 16px;          /* Ukuran font */
+            margin: 4px 2px;          /* Margin tombol */
+            cursor: pointer;          /* Menampilkan kursor pointer */
+            border-radius: 30px;       /* Membulatkan sudut tombol */
+            transition: background-color 0.3s; /* Animasi perubahan warna background */
+        }
+    
+        .back-button:hover {
+            background-color: #45a049; /* Warna latar belakang tombol saat di-hover */
+        }
+    </style>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    
+    <button class="back-button" onclick="goBack()">Back</button>
+</body>
+</html>
